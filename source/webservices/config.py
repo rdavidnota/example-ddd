@@ -8,8 +8,18 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 # Define the database - we are working with
 # SQLite for this example
+
+
 SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(BASE_DIR, 'premier.db')
-DATABASE_CONNECT_OPTIONS = {}
+
+DATABASE = {
+    "engine": "mysql",
+    "database": "app",
+    "host": "localhost",
+    "port": "3306",
+    "username": "root",
+    "password": "",
+    }
 
 # Application threads. A common general assumption is
 # using 2 per available processor cores - to handle

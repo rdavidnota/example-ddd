@@ -15,4 +15,9 @@ class Base(object):
 
 
 class Customer(Base):
-    name = Column(String)
+    name = Column(String(50))
+
+
+class Factory(Base):
+    phone = Column(String(20))
+    address = Column(String(200))

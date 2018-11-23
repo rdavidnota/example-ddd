@@ -6,7 +6,7 @@ from app.application.persistence.interfaces import IFactoryContext
 
 class FactoryContext(IFactoryContext):
 
-    def create_factory( self, factory: FactoryDomain ):
+    def create_factory(self, factory: FactoryDomain):
         persistence_factory = Factory()
 
         persistence_factory.phone = factory.phone

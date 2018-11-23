@@ -5,10 +5,10 @@ from app.domain.factory import Factory
 
 class FactoryCommand(IFactoryCommand):
 
-    def __init__( self, factory_context: IFactoryContext ):
+    def __init__(self, factory_context: IFactoryContext):
         self.factory_context = factory_context
 
-    def create_factory( self, phone: str, address: str ):
+    def create_factory(self, phone: str, address: str):
         factory = Factory()
         factory.phone = phone
         factory.set_address(address)

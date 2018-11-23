@@ -4,6 +4,7 @@ from sqlalchemy import MetaData
 
 meta = MetaData()
 
+
 @as_declarative()
 class Base(object):
 

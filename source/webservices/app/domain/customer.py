@@ -3,8 +3,8 @@ from app.domain.base import Base
 
 class Customer(Base):
 
-    def __init__( self ):
+    def __init__(self):
         self.name = ""
 
-    def toJSON( self ):
+    def toJSON(self):
         return {'name': self.name, 'id': self.id}

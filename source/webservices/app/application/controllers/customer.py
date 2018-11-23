@@ -11,7 +11,7 @@ mod_customer = Blueprint('customer', __name__, url_prefix='/customer')
 
 # Set the route and accepted methods
 @mod_customer.route('/save', methods=['POST'])
-def SaveCustomer():
+def save_customer():
     if request.method == 'POST':
         name = request.values.get('name')
         customer_command.save_customer(name)
@@ -20,7 +20,7 @@ def SaveCustomer():
 
 # Set the route and accepted methods
 @mod_customer.route('/list', methods=['GET'])
-def ListCustomer():
+def list_customer():
     customers = []
     if request.method == 'GET':
         customers = customer_command.list_customer()

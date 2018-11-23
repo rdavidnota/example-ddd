@@ -6,13 +6,13 @@ from app.application.persistence.interfaces import ICustomerContext
 
 class CustomerContext(ICustomerContext):
 
-    def save_customer( self, customer: DomainCustomer ):
+    def save_customer(self, customer: DomainCustomer):
         persistence_customer = Customer()
         persistence_customer.name = customer.name
         session.add(persistence_customer)
         session.commit()
 
-    def list_customers( self ):
+    def list_customers(self):
         customers = []
         for customer in session.query(Customer).all():
             domain_customer = DomainCustomer()

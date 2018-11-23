@@ -5,7 +5,7 @@ from app.domain import RegexBasicFormat, RegexFormatTwo, RegexFormatThree, Regex
 
 class Factory(Base):
 
-    def __init__( self ):
+    def __init__(self):
         self.phone = ""
         self.street_name = ""
         self.number = ""
@@ -13,7 +13,7 @@ class Factory(Base):
         self.city = ""
         self.state = ""
 
-    def get_address( self ):
+    def get_address(self):
         address = '{number} {street_name}'.format(number=self.number, street_name=self.street_name)
 
         if not address and not address.isspace():
@@ -27,7 +27,7 @@ class Factory(Base):
 
         return address
 
-    def split_basic_format( self, address: str ):
+    def split_basic_format(self, address: str):
         params = address.split(' ')
 
         self.number = ""
@@ -41,7 +41,7 @@ class Factory(Base):
             else:
                 self.street_name += ' {param}'.format(param=param)
 
-    def split_format_two( self, address: str ):
+    def split_format_two(self, address: str):
         self.splitBasicFormat(address)
         params = self.streetname.split(', ')
         sw = True
@@ -53,7 +53,7 @@ class Factory(Base):
             else:
                 self.neighbourhood += ' {neighbourhood}'.format(neighbourhood=param)
 
-    def split_format_three( self, address: str ):
+    def split_format_three(self, address: str):
         self.split_format_two(address)
 
         params = self.neighbourhood.split(', ')
@@ -66,7 +66,7 @@ class Factory(Base):
             else:
                 self.city += ' {city}'.format(city=param)
 
-    def split_format_four( self, address: str ):
+    def split_format_four(self, address: str):
         self.split_format_three(address)
 
         params = self.city.split('- ')
@@ -80,7 +80,7 @@ class Factory(Base):
             else:
                 self.state += ' {state}'.format(state=param)
 
-    def set_address( self, address: str ):
+    def set_address(self, address: str):
         if re.match(RegexBasicFormat, address):
             self.split_basic_format(address)
         elif re.match(RegexFormatTwo, address):

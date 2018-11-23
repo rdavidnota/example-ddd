@@ -10,12 +10,12 @@ class ICustomerContext(ABC):
         pass
 
     @abstractmethod
-    def list_customers( self ):
+    def list_customers(self):
         pass
 
 
 class IFactoryContext(ABC):
 
     @abstractmethod
-    def create_factory( self , factory: DomainFactory):
+    def create_factory(self, factory: DomainFactory):
         pass

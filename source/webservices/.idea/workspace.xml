@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83ae43e4-52d4-4d8d-95e7-efc4878999a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/application/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/application/controllers/customer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/application/controllers/factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/application/customer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/application/factories/factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/application/factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/application/persistence/interfaces.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/application/presentation/interfaces.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/domain/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/domain/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/domain/customer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/domain/factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/persistence/factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webservices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/app.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/hello/controllers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/hello/controllers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/persistence/Customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/persistence/customer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/persistence/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/persistence/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/persistence/entities/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/persistence/entities/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/persistence/message.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,31 +62,33 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="py" value="5807" />
+          <entry key="gitignore" value="8" />
+          <entry key="py" value="5835" />
           <entry key="txt" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="148" />
-          <entry key="Python" value="5807" />
+          <entry key="PLAIN_TEXT" value="156" />
+          <entry key="Python" value="5835" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="README" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="ini" value="1" />
           <entry key="mako" value="1" />
-          <entry key="py" value="45" />
-          <entry key="txt" value="2" />
+          <entry key="py" value="47" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Ini" value="1" />
           <entry key="Mako" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="45" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="47" />
         </counts>
       </usages-collector>
     </session>
@@ -116,86 +96,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/domain/factory.py">
+        <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <marker date="1542924157607" expanded="true" signature="156:157" ph="..." />
-                <marker date="1542924157607" expanded="true" signature="156:162" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/persistence/factory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/application/factory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-                <marker date="1542919699894" expanded="true" signature="275:328" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/persistence/entities/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#0#68#0" expanded="true" />
-                <marker date="1542925086423" expanded="true" signature="416:421" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/persistence/customer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-              <folding>
-                <marker date="1542904994042" expanded="true" signature="259:264" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/persistence/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -210,14 +114,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/domain/customer.py">
+        <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <marker date="1542904967542" expanded="true" signature="56:57" ph="..." />
-                <marker date="1542904967542" expanded="true" signature="56:62" ph="..." />
-              </folding>
+            <state relative-caret-position="273">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="283" column="12" lean-forward="true" selection-start-line="283" selection-start-column="12" selection-end-line="283" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -247,7 +156,6 @@
         <option value="$PROJECT_DIR$/hello/views.py" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/hello/__init__.py" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/app/templates/404.html" />
         <option value="$PROJECT_DIR$/app/controller.py" />
         <option value="$PROJECT_DIR$/app/controllers.py" />
@@ -257,7 +165,6 @@
         <option value="$PROJECT_DIR$/app/application/controllers/CustomerController.py" />
         <option value="$PROJECT_DIR$/app/hello/controllers.py" />
         <option value="$PROJECT_DIR$/app/application/factories/customer.py" />
-        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/app/persistence/Customer.py" />
         <option value="$PROJECT_DIR$/app/application/customer.py" />
         <option value="$PROJECT_DIR$/app/domain/base.py" />
@@ -281,6 +188,9 @@
         <option value="$PROJECT_DIR$/app/persistence/config.py" />
         <option value="$PROJECT_DIR$/app/persistence/__init__.py" />
         <option value="$PROJECT_DIR$/app/persistence/entities/models.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -290,9 +200,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-7" />
-    <option name="width" value="1397" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -309,24 +219,6 @@
             <path>
               <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservices" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservices" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservices" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservices" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -393,10 +285,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1397" height="1047" extended-state="1" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22737472" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33260393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -410,7 +302,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33187294" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33187294" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -438,13 +330,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/hello/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/persistence/message.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -632,18 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1542924157607" expanded="true" signature="156:157" ph="..." />
-            <marker date="1542924157607" expanded="true" signature="156:162" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/persistence/entities/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -651,16 +524,6 @@
           <folding>
             <element signature="e#0#68#0" expanded="true" />
             <marker date="1542925086423" expanded="true" signature="416:421" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/persistence/factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -685,6 +548,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/persistence/factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1542924157607" expanded="true" signature="156:157" ph="..." />
+            <marker date="1542924157607" expanded="true" signature="156:162" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -694,8 +586,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="273">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="283" column="12" lean-forward="true" selection-start-line="283" selection-start-column="12" selection-end-line="283" selection-end-column="12" />
         </state>
       </provider>
     </entry>

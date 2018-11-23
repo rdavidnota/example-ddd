@@ -1,0 +1,11 @@
+{% for customer in customers %}
+    <h1>Customer {{ customer.id }}</h1>
+    <p>
+        <label>Id:</label>
+        <label>{{ customer.id }}</label>
+    </p>
+    <p>
+        <label>Name:</label>
+        <label>{{ customer.name  }}</label>
+    </p>
+{% endfor %}

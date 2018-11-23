@@ -5,6 +5,10 @@ from app.domain.factory import Factory
 
 class FactoryCommand(IFactoryCommand):
 
+    def list_factories(self):
+        factories = self.factory_context.list_factories()
+        return factories
+
     def __init__(self, factory_context: IFactoryContext):
         self.factory_context = factory_context
 

@@ -22,4 +22,17 @@ def save_factory():
         print(factory)
 
         factory_command.create_factory(phone, address)
-    return "OK"
+
+    return Response(response="OK", status=201)
+
+
+# Set the route and accepted methods
+@mod_factory.route('/list', methods=['GET'])
+def list_factories():
+    factories = []
+    if request.method == 'GET':
+        factories = factory_command.list_factories()
+
+    response = json.dumps([factory.to_json() for factory in factories]),
+
+    return Response(response=response, mimetype='application/json')

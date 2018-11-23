@@ -15,7 +15,7 @@ def save_customer():
     if request.method == 'POST':
         name = request.values.get('name')
         customer_command.save_customer(name)
-    return "OK"
+    return Response(response="OK", status=201)
 
 
 # Set the route and accepted methods
@@ -25,6 +25,6 @@ def list_customer():
     if request.method == 'GET':
         customers = customer_command.list_customer()
 
-    response = json.dumps([cus.toJSON() for cus in customers]),
+    response = json.dumps([customer.to_json() for customer in customers]),
 
-    return Response(response=response, status=202, mimetype='application/json')
+    return Response(response=response, mimetype='application/json')

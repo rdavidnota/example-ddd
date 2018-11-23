@@ -6,6 +6,16 @@ from app.application.persistence.interfaces import IFactoryContext
 
 class FactoryContext(IFactoryContext):
 
+    def list_factories(self):
+        factories = []
+        for factory in session.query(Factory).all():
+            factory_domain = FactoryDomain()
+            factory_domain.phone = factory.phone
+            factory_domain.set_address(factory.address)
+            factories.append(factory_domain)
+
+        return factories
+
     def create_factory(self, factory: FactoryDomain):
         persistence_factory = Factory()
 

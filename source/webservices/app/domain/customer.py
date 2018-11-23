@@ -6,5 +6,5 @@ class Customer(Base):
     def __init__(self):
         self.name = ""
 
-    def toJSON(self):
+    def to_json(self):
         return {'name': self.name, 'id': self.id}

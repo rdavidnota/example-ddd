@@ -19,3 +19,7 @@ class IFactoryContext(ABC):
     @abstractmethod
     def create_factory(self, factory: DomainFactory):
         pass
+
+    @abstractmethod
+    def list_factories(self):
+        pass
